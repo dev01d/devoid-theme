@@ -30,11 +30,11 @@ A dark theme for VS Code based on Atom's One Dark with italics support.
 
 ### Recommended settings
 
-```json
+```javascript
 {
   "editor.wordWrap": "on",
-  // Itallics support defaults to true for the cursive font.
-  // Enable a font that suports it like Operator/Fira/Dank mono
+  // Italics support defaults to true for cursive font.
+  // Enable a font that supports it like Operator/Fira/Dank mono
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "files.trimTrailingWhitespace": true
 }
@@ -46,7 +46,7 @@ A dark theme for VS Code based on Atom's One Dark with italics support.
 
 **Example:**
 
-```json
+```javascript
 // remove variable italics
 "editor.tokenColorCustomizations": {
   "textMateRules": [
