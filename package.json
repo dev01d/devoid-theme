@@ -1,0 +1,48 @@
+{
+  "name": "devoid-theme",
+  "displayName": "Devoid theme",
+  "description": "A dark theme for VS Code based on Atom's One Dark with italics support",
+  "version": "1.0.0",
+  "publisher": "dev01d",
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev01d/devoid-theme"
+  },
+  "engines": {
+    "vscode": "^1.20.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#515D66",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "one dark",
+    "onedark",
+    "italics",
+    "atom",
+    "dev01d",
+    "devoid"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Devoid",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dev01d.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "nodemon --exec vsce package"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12",
+    "vsce": "^1.56.0"
+  }
+}
