@@ -775,7 +775,6 @@
         "variable.other.readwrite.tsx"
       ],
       "settings": {
-        // "foreground": "#ABB2BF"
         "foreground": "#E06C75"
       }
     },
@@ -930,7 +929,6 @@
         "meta.array-binding-pattern-variable.tsx variable.other.readwrite.tsx"
       ],
       "settings": {
-        // "foreground": "#D19A66"
         "foreground": "#E06C75"
       }
     },
@@ -1229,7 +1227,6 @@
         "entity.name.selector",
         "entity.other",
         "keyword.operator.assignment",
-        "keyword.operator.arithmetic",
         "storage.modifier",
         "storage.type",
         "support.other"
