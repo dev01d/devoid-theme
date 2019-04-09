@@ -2,7 +2,7 @@
   "name": "devoid-theme",
   "displayName": "Devoid theme",
   "description": "A dark theme for VS Code based on Atom's One Dark with italics support",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "dev01d",
   "icon": "images/logo.png",
   "repository": {
@@ -39,7 +39,8 @@
     ]
   },
   "scripts": {
-    "build": "nodemon --exec vsce package"
+    "build": "nodemon --exec vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "nodemon": "^1.14.12",
