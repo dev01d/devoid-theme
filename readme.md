@@ -4,19 +4,19 @@ A dark theme for VS Code based on Atom's One Dark with italics support.
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/dev01d.devoid-theme.svg)](https://marketplace.visualstudio.com/items?itemName=dev01d.devoid-theme)
 
-### js/jsx
+## js/jsx
 
 ![Preview jsx](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/jsx.png)
 
-### html
+## html
 
 ![Preview html](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/html.png)
 
-### css
+## css
 
 ![Preview css](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/css.png)
 
-### json
+## json
 
 ![Preview json](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/json.png)
 
