@@ -72,6 +72,13 @@
       }
     },
     {
+      "name": "Keyword Operator comparison",
+      "scope": "keyword.operator.comparison",
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
       "name": "Keyword Other Special Method",
       "scope": "keyword.other.special-method",
       "settings": {
@@ -606,7 +613,7 @@
       "name": "Source Js Keyword Operator",
       "scope": "source.js keyword.operator",
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#ABB2BF"
       }
     },
     {
@@ -700,13 +707,6 @@
       "scope": "keyword.unsafe.rust",
       "settings": {
         "foreground": "#CC6B73"
-      }
-    },
-    {
-      "name": "customrule",
-      "scope": "customrule",
-      "settings": {
-        "foreground": "#ABB2BF"
       }
     },
     {
@@ -1221,12 +1221,27 @@
       }
     },
     {
+      "name": "[VSCODE-CUSTOM] Go Keyword",
+      "scope": ["source.go keyword"],
+      "settings": {
+        "foreground": "#C678DD",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Go Keyword no italics",
+      "scope": ["source.go keyword.operator.assignment"],
+      "settings": {
+        "foreground": "#ABB2BF",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "Italics for scopes otherwise not listed above",
       "scope": [
         "entity.name.method",
         "entity.name.selector",
         "entity.other",
-        "keyword.operator.assignment",
         "storage.modifier",
         "storage.type",
         "support.other"
