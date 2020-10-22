@@ -44,7 +44,7 @@
     "deploy": "vsce publish"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.6",
     "vsce": "^1.81.1"
   }
 }
