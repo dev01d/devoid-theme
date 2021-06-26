@@ -40,8 +40,7 @@
   },
   "scripts": {
     "build": "vsce package",
-    "deploy": "vsce publish",
-    "deploy:ci": "vsce publish -p ${{ secrets.VSCE_PAT }}"
+    "release": "vsce publish"
   },
   "devDependencies": {
     "vsce": "^1.95.0"
