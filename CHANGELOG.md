@@ -4,16 +4,16 @@
 
 #### Added
 
-- Added theming to
-  - buttons
-  - badges
-  - cursor
+- Added theming to:
+  - Buttons
+  - Badges
+  - Cursor
 
 #### Fixed
 
-- Contrast on lists in editor pane (code suggestion dropdown, etc.)
-- Default colors shown on sidebar while adjusting size
-- Other minor tweaks to improve contrast in sidebar highlighting
+- Contrast on active list items in editor pane (code suggestion dropdown, etc.)
+- Default colors shown on sidebar sash while adjusting size
+- Other minor tweaks to improve contrast in various areas
 
 ## 1.1.0
 
