@@ -40,11 +40,9 @@
   },
   "scripts": {
     "build": "vsce package",
-    "dev": "echo '\n Press F5 to start debugging \n' && nodemon --exec yarn build",
-    "deploy": "vsce publish"
+    "deploy": "vsce publish --yarn"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7",
     "vsce": "^1.88.0"
   }
 }
