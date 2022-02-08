@@ -43,6 +43,6 @@
     "release": "vsce publish"
   },
   "devDependencies": {
-    "vsce": "^2.6.5"
+    "vsce": "^2.6.7"
   }
 }
