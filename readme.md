@@ -10,19 +10,19 @@ A dark theme for VS Code with italics support.
 
 ## js/jsx
 
-![Preview jsx](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/jsx.png)
+![Preview jsx](https://raw.githubusercontent.com/dev01d/devoid-theme/main/.github/assets/images/jsx.png)
 
 ## html
 
-![Preview html](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/html.png)
+![Preview html](https://raw.githubusercontent.com/dev01d/devoid-theme/main/.github/assets/images/html.png)
 
 ## css
 
-![Preview css](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/css.png)
+![Preview css](https://raw.githubusercontent.com/dev01d/devoid-theme/main/.github/assets/images/css.png)
 
 ## json
 
-![Preview json](https://raw.githubusercontent.com/dev01d/devoid-theme/master/images/json.png)
+![Preview json](https://raw.githubusercontent.com/dev01d/devoid-theme/main/.github/assets/images/json.png)
 
 ## Installation
 
