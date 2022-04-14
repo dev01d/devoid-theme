@@ -1,8 +1,8 @@
 {
   "name": "devoid-theme",
   "displayName": "Devoid theme",
-  "description": "A dark theme for VS Code with italics support based on Atom's One Dark",
-  "version": "1.2.1",
+  "description": "A dark theme for VS Code with italics support",
+  "version": "1.2.2",
   "publisher": "dev01d",
   "icon": "images/logo.png",
   "repository": {
@@ -22,10 +22,7 @@
   "keywords": [
     "theme",
     "dark",
-    "one dark",
-    "onedark",
     "italics",
-    "atom",
     "dev01d",
     "devoid"
   ],

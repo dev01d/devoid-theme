@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.2.2
+
+- Update theme pictures
+- Other security updates
+
 ## 1.2.1
 
 #### Added
