@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.2.3
+
+Just documentation changes
+
+- Added stats to readme
+- Moved to 'main' branch in the github repo
+  - Which required doc changes to prevent broken image links.
+
 ## 1.2.2
 
 - Update theme pictures
