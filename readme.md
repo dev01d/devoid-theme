@@ -1,6 +1,6 @@
 # Devoid VS Code theme
 
-A dark theme for VS Code with italics support based on Atom's One Dark.
+A dark theme for VS Code with italics support.
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/dev01d.devoid-theme.svg)](https://marketplace.visualstudio.com/items?itemName=dev01d.devoid-theme)
 
