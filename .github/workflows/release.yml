@@ -1,8 +1,8 @@
 name: Release
 on:
-  release:
-    types:
-      - published
+  push:
+    tags:
+      - "*"
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 16
 
       - name: Install the dependencies
         run: npm i
@@ -23,5 +23,5 @@ jobs:
 
       - name: Publish
         env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: vsce publish -p "$VSCE_PAT"
+          PAT: ${{ secrets.VSCE_PAT }}
+        run: vsce publish -p "$PAT"
