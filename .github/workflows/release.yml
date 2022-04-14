@@ -10,18 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Node.js
+        uses: actions/setup-node@v1
         with:
           node-version: 16
 
-      - name: Install the dependencies
-        run: npm i
+      - name: Install dependencies
+        run: yarn install
 
-      - name: Install vsce
-        run: npm i -g vsce
+      - name: Build theme
+        run: yarn build
 
-      - name: Publish
+      - name: Release theme
+        run: yarn release
         env:
-          PAT: ${{ secrets.VSCE_PAT }}
-        run: vsce publish -p "$PAT"
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
