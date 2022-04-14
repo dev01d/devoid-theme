@@ -37,7 +37,7 @@
   },
   "scripts": {
     "build": "vsce package",
-    "release": "vsce publish"
+    "release": "vsce publish --yarn"
   },
   "devDependencies": {
     "vsce": "^2.7.0"
