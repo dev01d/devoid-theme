@@ -40,6 +40,6 @@
     "release": "vsce publish --yarn"
   },
   "devDependencies": {
-    "vsce": "^2.7.0"
+    "vsce": "^2.8.0"
   }
 }
