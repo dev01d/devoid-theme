@@ -31,7 +31,7 @@
       {
         "label": "Devoid",
         "uiTheme": "vs-dark",
-        "path": "./themes/devoid.json"
+        "path": "./themes/devoid-color-theme.json"
       }
     ]
   },
