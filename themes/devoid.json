@@ -452,7 +452,7 @@
       "name": "Invalid Illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "white",
+        "foreground": "#fff",
         "background": "#E05252"
       }
     },
@@ -1246,6 +1246,17 @@
       "settings": {
         "foreground": "#C678DD",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Go Operator",
+      "scope": [
+        "keyword.operator.address.go",
+        "punctuation.definition.bracket.square.go"
+      ],
+      "settings": {
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
