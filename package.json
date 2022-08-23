@@ -36,10 +36,12 @@
     ]
   },
   "scripts": {
-    "build": "vsce package",
-    "release": "vsce publish --yarn"
+    "build": "vsce package --yarn",
+    "release": "vsce publish --yarn",
+    "release-ovsx": "ovsx publish -p $OPEN_VSX_TOKEN --yarn"
   },
   "devDependencies": {
-    "vsce": "^2.10.0"
+    "vsce": "^2.10.0",
+    "ovsx": "^0.5.1"
   }
 }

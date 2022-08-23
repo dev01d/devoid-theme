@@ -23,7 +23,12 @@ jobs:
       - name: Build theme
         run: yarn build
 
-      - name: Release theme
-        run: yarn release
+      - name: Release theme to VSCode market
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: yarn release
+
+      - name: Release theme to Open VSX market
+        env:
+          OPEN_VSX_TOKEN: ${{ secrets.OPEN_VSX_TOKEN }}
+        run: yarn release-ovsx
