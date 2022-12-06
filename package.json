@@ -41,7 +41,7 @@
     "release-ovsx": "ovsx publish -p $OPEN_VSX_TOKEN --yarn"
   },
   "devDependencies": {
-    "vsce": "^2.14.0",
+    "vsce": "^2.15.0",
     "ovsx": "^0.6.0"
   }
 }
