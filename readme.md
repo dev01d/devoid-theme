@@ -2,11 +2,10 @@
 
 A dark theme for VS Code with italics support.
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/dev01d.devoid-theme.svg)](https://marketplace.visualstudio.com/items?itemName=dev01d.devoid-theme)
-![install numbers](https://vsmarketplacebadge.apphb.com/installs/dev01d.devoid-theme.svg)
-![downloads](https://vsmarketplacebadge.apphb.com/downloads/dev01d.devoid-theme.svg)
-![ratings](https://vsmarketplacebadge.apphb.com/rating-star/dev01d.devoid-theme.svg)
-![monthly trending](https://vsmarketplacebadge.apphb.com/trending-monthly/dev01d.devoid-theme.svg)
+![Version](https://img.shields.io/visual-studio-marketplace/v/dev01d.devoid-theme)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/dev01d.devoid-theme)
+![Installs](https://img.shields.io/visual-studio-marketplace/i/dev01d.devoid-theme)
+![Rating](https://img.shields.io/visual-studio-marketplace/r/dev01d.devoid-theme)
 
 ## js/jsx
 
