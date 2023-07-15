@@ -1,6 +1,7 @@
 {
   "name": "dev01d",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "focusBorder": "#333",
     "sash.hoverBorder": "#00a6a9",
