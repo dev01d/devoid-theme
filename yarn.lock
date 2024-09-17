@@ -940,10 +940,10 @@ open@^8.0.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-ovsx@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/ovsx/-/ovsx-0.9.1.tgz#dfd2f0d760a911247703d196ce00d4a156966ddc"
-  integrity sha512-faORiHeVdRFXVjvwjGvsGdfw49ocUZwUvjrrObZDzhlkKkrUS8L2afeXF8goeuv1YbTV8lmFfBYAt0C4FaoVuQ==
+ovsx@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/ovsx/-/ovsx-0.9.4.tgz#bf919abd21351aabdc1763fd6bc67fcfdb2ca2cc"
+  integrity sha512-IZbOqvqcUAfT+iZahSXViE5Aaq8e5dzWnGDjZ1VGR4oA/SYKPOn5VuTPudVBDkhlLMDKRJTLkRlq924wwe6nIQ==
   dependencies:
     "@vscode/vsce" "^2.25.0"
     commander "^6.1.0"
