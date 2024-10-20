@@ -1146,10 +1146,10 @@ open@^8.0.0:
     is-docker "^2.1.1"
     is-wsl "^2.2.0"
 
-ovsx@^0.9.5:
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/ovsx/-/ovsx-0.9.5.tgz#7d9df63502ff939657602b228ea4432cdb1f250d"
-  integrity sha512-x8jaFQAA+KLxZ9HAQ8ZBbBxNsrrjjpEnVihfOhb/iuXWCso1n2oKaDJuLbA9O5FtBgtGCy0n23PKf728kOmX8g==
+ovsx@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/ovsx/-/ovsx-0.10.0.tgz#85c75c5c1896d4d531722bd579bde27429789369"
+  integrity sha512-DSgNXGQ444nGKag+LZh92R/hM2PfRSu+6VKfVawoZ+JzFDiGX8yhMkAuyVlHrlxLCpfQOsqs80GcHje/h2SpmA==
   dependencies:
     "@vscode/vsce" "^3.1.0"
     commander "^6.2.1"
@@ -1158,6 +1158,7 @@ ovsx@^0.9.5:
     leven "^3.1.0"
     semver "^7.6.0"
     tmp "^0.2.3"
+    yauzl "^3.1.3"
 
 package-json-from-dist@^1.0.0:
   version "1.0.1"
@@ -1644,6 +1645,14 @@ yauzl@^2.3.1:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
+
+yauzl@^3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/yauzl/-/yauzl-3.1.3.tgz#f61c17ad1a09403bc7adb01dfb302a9e74bf4a50"
+  integrity sha512-JCCdmlJJWv7L0q/KylOekyRaUrdEoUxWkWVcgorosTROCFWiS9p2NNPE9Yb91ak7b1N5SxAZEliWpspbZccivw==
+  dependencies:
+    buffer-crc32 "~0.2.3"
+    pend "~1.2.0"
 
 yazl@^2.2.2:
   version "2.5.1"
